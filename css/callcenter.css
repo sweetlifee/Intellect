@@ -1,0 +1,147 @@
+body{
+    background-color: #Fafafa; 
+   
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+}
+a link {
+    border: 1px solid black;
+}
+a:hover p{
+    padding: 2px;
+}
+a link h2{
+    border: 1px solid black;
+}
+a:hover h2{
+    padding: 2px;
+}
+.header{
+    width:100%;
+    height: 60px;
+/*    border:1px solid black;*/
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    background-color: #F6B686; 
+}
+.text1{
+    margin-left:10px;
+     width:25%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    margin-right: 220px;
+    font-family: times new roman;
+}
+.text1 p{
+    margin-left: 20px;
+}
+
+.buttons{
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+}
+.buttons img{
+    width: 30px;
+    height: 30px;
+}
+.user .basket {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.user img {
+    border: 2px solid black;
+    margin-right: 20px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.korzinaa{
+/*    border: 1px solid black;*/
+    width: 100%;
+    height: 480px;
+}
+.zakaz{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.zakaz h1{
+    letter-spacing: 5px;
+    font-family:courier new,monospace;
+}
+.callcenter{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.callcenter h3{
+    margin-left: 100px;
+   font-family: courier new,monospace;
+   
+}
+.callcenter1{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.callcenter1 h3{
+    margin-left: 100px;
+   font-family: courier new,monospace;
+   
+}
+
+.futter{
+    width: 100%;
+    height: 320px;
+    border: 1px solid white;
+    background: #F6B686;
+    font-family: times new roman;
+}
+.futter h1{
+    margin-left:30px;
+    margin-top: 10px;      
+}
+.klientam{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    margin-top: -20px;
+/*    border: 1px solid black;*/
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+   
+    }
+.ortasi{
+    margin-top: -10px;
+/*    border: 1px solid black;*/
+}
+.ortasi h2{
+    margin-left: 25px;
+}
+.ortasi p{
+    margin-left: 25px;
+    font-family: arial;
+}
+.internet h2{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.internet p{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: arial;
+
+}
+.copyright p{
+   font-family: arial; 
+}

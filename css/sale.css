@@ -1,0 +1,290 @@
+body{
+    background-color: #Fafafa; 
+   
+}
+
+body{
+    background-color: #Fafafa; 
+   
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ 
+a link {
+    border: 1px solid black;
+}
+a:hover p{
+    padding: 2px;
+}
+a link h2{
+    border: 1px solid black;
+}
+a:hover h2{
+    padding: 2px;
+}
+a img {
+    border: 4px solid #F6BB86 ;
+   } 
+
+a:hover img  {
+    border: 3px solid black;
+       /* Рамка при наведении на ссылку курсора мыши */
+   
+   }
+.header{
+    width:100%;
+    height: 60px;
+/*    border:1px solid black;*/
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    background-color: #F6BB86; 
+}
+.text1{
+    margin-left:10px;
+     width:25%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    margin-right: 220px;
+    font-family: times new roman;
+}
+.text1 p{
+    margin-left: 20px;
+}
+
+.buttons{
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+}
+.buttons img{
+    width: 30px;
+    height: 30px;
+}
+.user .basket {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.user img {
+    border: 2px solid black;
+    margin-right: 20px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+.foto{
+    width:100%;
+    height: 500px;
+/*    border:1px solid black;*/
+    display: flex;
+   align-items: center;
+}
+.catalog{
+    width:100%;
+    height: 120px;
+/*    border:1px solid black;*/
+    margin-top: -10px;
+    margin-bottom: 30px;
+    display: flex;
+   align-items: center;
+    
+}
+
+
+.catalog_h2{
+    margin-left:30px;
+    font-family: monospace;
+    letter-spacing: 4px;
+    background: #F6BB86; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+}
+.search{
+    width:80%;
+    height: 60px;
+/*    border:1px solid black;*/
+     display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.inp{
+    width:80%;
+    padding: 0px 20px 0px 30px;
+    height: 35px;
+    border-radius: 0px;
+    border:9px solid #F6BB86;
+}
+.search_h3{
+    margin-left: -50px;
+    font-family: monospace;
+    letter-spacing: 4px;
+    background: #F6BB86; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    
+}
+.novinki{
+    text-align: center;
+    
+}
+.novinki h1{
+    margin-top: -40px;
+    font-family: monospace;
+    margin-left: 240px;
+}
+
+.obshi{
+    display: flex;
+}
+.tovar{
+    width:20%;
+    height: 1580px;
+    border:1px solid black;
+    background: #F6BB86;
+    display: flex;
+    margin-top: -10px;
+    align-items: center
+}
+.opisanie{
+    width:100%;
+    height:1700px;  
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px
+      
+}
+.opisanie h2{
+    font-family: monospace;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+.foto img{
+     width:900%;
+    height: 350px;
+    margin-top: -150px;
+    margin-left: 50PX;
+}
+.photki{
+    width:100%;
+    height: 1580px;
+    padding-top: 10px;
+    margin-top: -10px;
+/*    border:1px solid black;*/
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.uw{
+      width:1000px;
+    height: 500px;
+    padding-top: 5px;
+    margin-top: -250px;
+/*    border:1px solid black;*/
+    display:flex;
+    margin-left: -25px;
+    flex-direction: row;
+}
+.eki{
+    width:1000px;
+    height: 500px;
+    padding-top: 5px;
+    margin-top: -450px;
+/*    border:1px solid black;*/
+    display:flex;
+    margin-left: 200px;
+    flex-direction: row;
+}
+.photo{
+    width:500px;
+    height: 250px;
+    padding-top: 0 auto;
+/*    border:1px solid black;*/
+    margin-left: 60px;
+   
+    border-radius: 1px;
+}
+.suret{
+    width:270px;
+    height:350px;
+   margin-left: -5px;
+}
+.photo p{
+    margin-top: 3px;
+    
+    font-family: Arial;
+}
+.phot{
+/*     border: 1px solid black;*/
+    height: 600px;
+    width: 500px
+       
+   
+}
+.suret1{
+    width:400px;
+    height:400px;
+/*    flex-direction: row;*/
+    margin-left: 50px;
+}
+
+
+.futter{
+    width: 100%;
+    height: 320px;
+    border: 1px solid white;
+    background: #F6BB86;
+    font-family: times new roman;
+}
+}
+.futter h1{
+    margin-left:30px;
+    margin-top: 10px;      
+}
+.klientam{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    margin-top: -20px;
+/*    border: 1px solid black;*/
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+   
+    }
+.ortasi{
+    margin-top: -10px;
+/*    border: 1px solid black;*/
+}
+.ortasi h2{
+    margin-left: 25px;
+}
+.ortasi p{
+    margin-left: 25px;
+    font-family: arial;
+}
+.internet h2{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.internet p{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: arial;
+
+}
+.copyright p{
+   font-family: arial; 
+}
